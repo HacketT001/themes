@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorNightPrimary</item>
+        <item name="colorPrimaryDark">@color/colorNightPrimaryDark</item>
+        <item name="colorAccent">@color/colorNightAccent</item>
+        <item name="android:backupInForeground"></item>
+        <item name="android:colorBackground">@color/colorNightBCK</item>
+        <item name="android:textColorPrimary">@color/colorNightPrimary</item>
+        <item name="android:textColorSecondary">@color/colorNightPrimary</item>
+    </style>
+</resources>

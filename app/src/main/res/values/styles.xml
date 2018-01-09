@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+
+    <style name="DarkTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorNightPrimary</item>
+        <item name="colorPrimaryDark">@color/colorNightPrimaryDark</item>
+        <item name="colorAccent">@color/colorNightAccent</item>
+        <item name="android:colorBackground">@color/colorNightBCK</item>
+        <item name="android:textColor">@color/colorNightWhire</item>
+        <item name="android:textColorPrimary">@color/colorNightPrimary</item>
+        <item name="android:textColorSecondary">@color/colorNightPrimary</item>
+
+        <item name="buttonStyle">@style/ButtonCustomStyle</item>
+    </style>
+
+<style name="ButtonCustomStyle" parent="Base.Widget.AppCompat.Button.Colored">
+    <item name="android:colorButtonNormal">@color/colorAccent</item>
+    <item name="android:textColor">@color/colorNightWhire</item>
+</style>
+
+
+</resources>
